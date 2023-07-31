@@ -91,7 +91,6 @@ const handleExport = () => {
     { field: 'carrier', headerName: 'Carrier', width: 200 },
     { field: 'productLine', headerName: 'Product Line', width: 200 },
     { field: 'issueDate', headerName: 'Issue Date', width: 200 },
-    { field: 'effectiveDate', headerName: 'Effective Date', width: 200 },
   ];
 
   const rows = [
@@ -120,7 +119,7 @@ const handleExport = () => {
 
   return (
     <Router>
-      <div className={`page ${isSideSheetOpen ? styles['side-sheet-open'] : ''}`} style={{ color: '#FF0000' }}>
+      {/* <div className={`page ${isSideSheetOpen ? styles['side-sheet-open'] : ''}`} style={{ color: '#FF0000' }}> */}
         <div className={styles.page}>
           <div className={styles.container}>
             <Grid container spacing={2}>
@@ -178,7 +177,7 @@ const handleExport = () => {
             </Grid>
           </div>
         </div>
-      </div>
+      {/* </div> */}
     </Router>
   );
 };

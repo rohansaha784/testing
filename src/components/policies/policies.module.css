@@ -1,5 +1,5 @@
 /* policies.css */
-  .page-policies {
+  .page {
     background-color: #ffffff;
     color: white;
   }
@@ -13,11 +13,6 @@
 
   html {
     color:#85490e
-  }
-  
-  .page {
-    background-color: #ffffff;
-    color: white;
   }
   
   .search-bar {
@@ -48,11 +43,6 @@
   .data-grid {
     height: 400px;
     width: 100%;
-  }
-
-  .side-sheet-open {
-    margin-left: 250px; /* Adjust the value based on your desired width for the side sheet */
-    transition: margin-left 0.3s ease; /* Add a transition effect for smooth animation */
   }
 
 

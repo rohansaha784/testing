@@ -3,13 +3,12 @@
     flex-direction: column;
     grid-template-columns: repeat(3, 1fr); /* 3 columns */
     grid-template-rows: repeat(2, 1fr); /* 2 rows */
-    gap: 10px;
+    gap: 15px;
+    margin: auto; 
   }
   
 .grid div {
-    margin-top: 20px;
-    margin-left: 435px;
-    margin-right: 275px;
+    display: flex;
     padding: 15px;
     border-radius: 5px;
     color: #ffffff;
@@ -18,7 +17,10 @@
     font-size: 18px;
     transition: background-color 0.3s, transform 0.2s;
     background-color: #af2a31;
-    max-width: 1000px;
+    width: 800px; /* Increase the width for longer buttons */
+    margin: auto; 
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
 }
   
 .grid div:hover {

@@ -76,7 +76,7 @@
 // export default App;
 
 import React, { useEffect, useRef, useState } from 'react';
-import { BrowserRouter as Router, Route, Link, Redirect } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
 import { Switch } from 'react-router';
 import aboutzinnia from './components/aboutzinnia/aboutzinnia';
 import suggestions from './components/suggestions/suggestions';
@@ -85,7 +85,6 @@ import home from './components/home/home';
 import './index.css';
 import { SideSheet, CustomNavLink } from './components/SideSheet';
 import { FiMenu } from 'react-icons/fi';
-import styles from './components/policies/policies.module.css';
 import PolicyDetails from './components/PolicyDetails/PolicyDetails';
 
 const App: React.FC = () => {

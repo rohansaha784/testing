@@ -105,3 +105,9 @@
 .no-bullet {
   list-style-type: none;
 }
+
+.side-sheet-open {
+  margin-left: 250px; /* Adjust the value based on your desired width for the side sheet */
+  transition: margin-left 0.3s ease;
+  margin-top: 66px; /* Add a transition effect for smooth animation */
+}

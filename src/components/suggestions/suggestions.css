@@ -1,0 +1,51 @@
+.about-zinnia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 48px;
+    font-weight: bold;
+    color: orange;
+    margin-bottom: 20px;
+  }
+  
+  .content {
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .submit-button {
+    background-color: #8e289c;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .submit-button:hover {
+    background-color: #42a5f5;
+  }
+
+  .popup {
+    background-color: #166060;
+    color: #cec2c2;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 100px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  

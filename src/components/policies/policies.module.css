@@ -1,0 +1,60 @@
+/* policies.css */
+  .page-policies {
+    background-color: #ffffff;
+    color: white;
+  }
+
+.container {
+    background-color: #fff;
+    color: #000;
+    height: 100vh;
+    padding: 50px;
+  }
+
+  html {
+    color:#ffffff
+  }
+  
+  .page {
+    background-color: #ffffff;
+    color: white;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .search-field {
+    margin-right: 30px;
+  }
+  
+  .export-button {
+    margin-right: 10px;
+  }
+  
+  .density-select {
+    margin-right: 10px;
+  }
+  
+  .grid {
+    background-color: #333;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .data-grid {
+    height: 400px;
+    width: 100%;
+  }
+
+  .side-sheet-open {
+    margin-left: 250px; /* Adjust the value based on your desired width for the side sheet */
+    transition: margin-left 0.3s ease; /* Add a transition effect for smooth animation */
+  }
+
+
+  
+  /* Rest of the CSS code... */
+  

@@ -46,7 +46,7 @@
 .toggle-button,
 .close-button {
   cursor: pointer;
-  color: rgb(245, 2, 2); /* Change the color value to your desired color */
+  color: #b14712; /* Change the color value to your desired color */
   margin-top: 15px;
   margin-bottom: 10px;
 }
@@ -99,7 +99,7 @@
 }
 
 .button-link.selected {
-  background-color: #e92f2f;
+  background-color: #e96d2f;
   color: #ffffff;
 }
 .no-bullet {

@@ -23,7 +23,7 @@
   }
 
   .submit-button {
-    background-color: #8e289c;
+    background-color: #e89f4c;
     color: white;
     padding: 10px 20px;
     font-size: 16px;
@@ -34,12 +34,12 @@
   }
   
   .submit-button:hover {
-    background-color: #42a5f5;
+    background-color: #ee7d0c;
   }
 
   .popup {
-    background-color: #166060;
-    color: #cec2c2;
+    background-color: #f49a51;
+    color: #ffffff;
     padding: 20px;
     border-radius: 5px;
     font-size: 18px;

@@ -12,7 +12,7 @@
   }
 
   html {
-    color:#ffffff
+    color:#85490e
   }
   
   .page {
@@ -32,6 +32,7 @@
   
   .export-button {
     margin-right: 10px;
+    background-color: red;
   }
   
   .density-select {

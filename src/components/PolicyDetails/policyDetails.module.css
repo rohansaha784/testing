@@ -1,12 +1,12 @@
 .header {
   font-size: 24px;
-  color: #333;
+  color: #343131;
   text-decoration: underline;
   margin-bottom: 10px;
 }
 
 .custombox {
-  background-color: rgb(255, 255, 255);
+  background: linear-gradient(to right, #FFDC00, #ED1C25);
   height: 300px;
   width: 1000px;
   display: flex;
@@ -19,13 +19,13 @@
 
 .details {
   font-size: 16px;
-  color: #666;
+  color: #111010c5;
   margin-bottom: 5px;
 }
 
 .details span {
   font-weight: bold;
-  color: #aa9797c5;
+  color: #ded5d5;
 }
 
 .container {
@@ -35,7 +35,7 @@
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  background-color: #463c3c;
+  background-color: #ffffff;
   border-radius: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
 }

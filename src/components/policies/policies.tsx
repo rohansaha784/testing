@@ -139,8 +139,8 @@ const handleExport = () => {
                   <Grid item xs={2}>
                     <Button
                       className={styles['export-button']}
+                      style={{ backgroundColor: '#fb9a23', color: '#85490e' }}
                       variant="contained"
-                      color="primary"
                       onClick={handleExport}
                       fullWidth
                     >

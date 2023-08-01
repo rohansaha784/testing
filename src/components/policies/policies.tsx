@@ -94,16 +94,16 @@ const handleExport = () => {
   ];
 
   const rows = [
-    { id: 1, Owner: 'John Doe', policyNumber: 5145935131, carrier: 'PS', productLine: 'EWE', issueDate: '2020-01-01' },
-    { id: 2, Owner: 'Jane Smith', policyNumber: 9186367413, carrier: 'PS', productLine: 'EWE', issueDate: '2020-03-10' },
-    { id: 3, Owner: 'Bob Johnson', policyNumber: 8587995351, carrier : 'PS', productLine: 'EWE', issueDate: '2020-07-10' },
-    { id: 4, Owner: 'Rob Pony', policyNumber: 3798703176, carrier : 'PS', productLine: 'EWE', issueDate: '2020-03-30' },
-    { id: 5, Owner: 'Cade Jaman', policyNumber: 2876603444, carrier : 'TQ', productLine: 'EWE', issueDate: '2020-09-20' },
-    { id: 6, Owner: 'Darshan Patel', policyNumber: 6683370890, carrier : 'PS', productLine: 'FDD', issueDate: '2020-01-13' },
-    { id: 7, Owner: 'Ritisha Banerjee', policyNumber: 4922357035, carrier : 'PS', productLine: 'CDD', issueDate: '2020-06-23' },
-    { id: 8, Owner: 'Rohan Federer', policyNumber: 9011273589, carrier : 'JE', productLine: 'EWE', issueDate: '2020-05-26' },
-    { id: 9, Owner: 'Emily Jenkinson', policyNumber: 1771849201, carrier : 'RD', productLine: 'BFL', issueDate: '2020-11-12' },
-    { id: 10, Owner: 'Jake Jenkinson', policyNumber: 2290808782, carrier : 'PS', productLine: 'WRW', issueDate: '2020-12-12' },
+    { id: 1, Owner: 'Darshan Patel', policyNumber: 6683370890, carrier : 'PS', productLine: 'FDD', issueDate: '2020-01-13' },
+    { id: 2, Owner: 'Ritisha Banerjee', policyNumber: 4922357035, carrier : 'PS', productLine: 'CDD', issueDate: '2020-06-23' },
+    { id: 3, Owner: 'Rohan Federer', policyNumber: 9011273589, carrier : 'JE', productLine: 'EWE', issueDate: '2020-05-26' },
+    { id: 4, Owner: 'Emily Jenkinson', policyNumber: 1771849201, carrier : 'RD', productLine: 'BFL', issueDate: '2020-11-12' },
+    { id: 5, Owner: 'Jake Jenkinson', policyNumber: 2290808782, carrier : 'PS', productLine: 'WRW', issueDate: '2020-12-12' },
+    { id: 6, Owner: 'John Doe', policyNumber: 5145935131, carrier: 'PS', productLine: 'EWE', issueDate: '2020-01-01' },
+    { id: 7, Owner: 'Jane Smith', policyNumber: 9186367413, carrier: 'PS', productLine: 'EWE', issueDate: '2020-03-10' },
+    { id: 8, Owner: 'Bob Johnson', policyNumber: 8587995351, carrier : 'PS', productLine: 'EWE', issueDate: '2020-07-10' },
+    { id: 9, Owner: 'Rob Pony', policyNumber: 3798703176, carrier : 'PS', productLine: 'EWE', issueDate: '2020-03-30' },
+    { id: 10, Owner: 'Cade Jaman', policyNumber: 2876603444, carrier : 'TQ', productLine: 'EWE', issueDate: '2020-09-20' },
   ];
 
   const filteredRows = rows.filter((row) =>

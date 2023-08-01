@@ -6,7 +6,7 @@
 }
 
 .custombox {
-  background: linear-gradient(to right, #FFDC00, #ED1C25);
+  background: linear-gradient(to right, white, gray);
   height: 300px;
   width: 1000px;
   display: flex;
@@ -25,7 +25,7 @@
 
 .details span {
   font-weight: bold;
-  color: #ded5d5;
+  color: #040202;
 }
 
 .container {

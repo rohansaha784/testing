@@ -7,6 +7,7 @@ const Home: React.FC = () => {
     { id: 1, value: 'About Zinnia', path: '/aboutzinnia' },
     { id: 2, value: 'Suggestions', path: '/suggestions' },
     { id: 3, value: 'Policies', path: '/policies' },
+    { id: 4, value: 'About', path: '/about' },
   ];
 
   const history = useHistory();
@@ -34,6 +35,8 @@ const Home: React.FC = () => {
           </div>
         ))}
       </div>
+      <h2 className="more-innovative"> More Innovative. More Modern. More Dynamic.</h2>
+      <video className="video" autoPlay loop muted src="https://zinnia.com/wp-content/uploads/2023/02/ezgif.com-gif-maker-2-1.mp4"></video>
     </div>
   );
 };

@@ -91,11 +91,13 @@ const handleExport = () => {
     { field: 'carrier', headerName: 'Carrier', width: 200 },
     { field: 'productLine', headerName: 'Product Line', width: 200 },
     { field: 'issueDate', headerName: 'Issue Date', width: 200 },
+    { field: 'effectiveDate', headerName: 'Effective Date', width: 200 }, // New column
+
   ];
 
   const rows = [
-    { id: 1, Owner: 'Darshan Patel', policyNumber: 6683370890, carrier : 'PS', productLine: 'FDD', issueDate: '2020-01-13' },
-    { id: 2, Owner: 'Ritisha Banerjee', policyNumber: 4922357035, carrier : 'PS', productLine: 'CDD', issueDate: '2020-06-23' },
+    { id: 1, Owner: 'Darshan Patel', policyNumber: 6683370890, carrier : 'PS', productLine: 'FDD', issueDate: '2020-01-13', effectiveDate: '2020-01-13' },
+    { id: 2, Owner: 'Ritisha Banerjee', policyNumber: 4922357035, carrier : 'PS', productLine: 'CDD', issueDate: '2020-06-23;', effectiveDate: '2020-06-23' },
     { id: 3, Owner: 'Rohan Federer', policyNumber: 9011273589, carrier : 'JE', productLine: 'EWE', issueDate: '2020-05-26' },
     { id: 4, Owner: 'Emily Jenkinson', policyNumber: 1771849201, carrier : 'RD', productLine: 'BFL', issueDate: '2020-11-12' },
     { id: 5, Owner: 'Jake Jenkinson', policyNumber: 2290808782, carrier : 'PS', productLine: 'WRW', issueDate: '2020-12-12' },
